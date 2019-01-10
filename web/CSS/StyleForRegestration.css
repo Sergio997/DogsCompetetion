@@ -1,0 +1,38 @@
+a{
+color: #fff;
+}
+a:hover{
+  text-decoration: none;
+}
+.conteiner{
+  width: 450px;
+  height: 500;
+  background-color: rgb(24,33,52, 0.7);
+  margin: 250px auto 0 auto;
+  text-align: center;
+  box-shadow: 0 -5px 0 #3adbfd;
+  border-radius: 0 0 10px 10px;
+}
+input[type="text"], input[type="password"]{
+  width: 300px;
+  height: 50;
+  font-size: 16px;
+  margin-bottom: 25px;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+.dws_submit{
+  padding: 13px 30px;
+  margin: 5px 0 20px 0;
+  font-size: 15px;
+  color: #fff;
+  background-color: #2ca8c6;
+  border: none;
+  border-bottom: 4px solid #6ee9fd;
+  cursor: pointer;
+}
+.dws_submit:hover{
+  transition: all 0.5s
+  background: #fff;
+  color: #2c536c;
+}
